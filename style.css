@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    object-fit: cover;
+}
+
+.letter {
+    background-color: forestgreen;
+    width: 50%;
+    max-width: 30%;
+    padding: 50px 40px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0 ,0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    color:  #2b2b2b;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.date {
+    text-align: right;
+    color: #666;
+    margin-bottom: 30px;
+    color: forestgreen;
+}
+
+.greeting {
+    margin-bottom: 20px;
+    text-indent: 20px;
+    color: forestgreen;
+} 
+
+.closing {
+    margin-top: 40px;
+    text-align: left;
+    color: forestgreen;
+    font-size: large;
+}
+
+.signature {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: left;
+    color: forestgreen;
+    font-size: large;
+}
